@@ -23,7 +23,7 @@ export default function CompanySearch() {
       try {
         setLoading(true)
         const response = await fetch(
-          'https://opensheet.elk.sh/1alsvX-fNp0fmvkhINMzMAfUcAl4i752s6TeLYRnnxRg/ATP'
+          'https://opensheet.elk.sh/1B489u3H7N9q5pR-RlCzXKSudhHmio3B4YEfmq9MCwS0/ATPSearch'
         )
         const data: CompanyData[] = await response.json()
         setCompanies(data)
